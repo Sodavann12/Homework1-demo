@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #0f0f66;
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.navbar .navbar-brand{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar .logo{
+    font-size: 35px;
+    color: white;
+    font-family: "Roboto", serif;
+}
+.navbar .menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+}
+.navbar .menu-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    padding: 15px;
+    border-radius: 10px;
+}
+.navbar .menu-link:hover{
+    color: #818181;
+}
+.navbar .log-in{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+.navbar .login-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+.navbar .login-link:hover{
+    color: #818181;
+}
+.navbar .register-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    background-color: #40e5e5;
+    padding: 15px;
+    border-radius: 10px;
+}
+.navbar .register-link:hover{
+    background-color: #75f0f0;
+}
+.hero-banner {
+    width: 100%;
+    height: 400px;
+    background-color: #dbd7d7;
+}
+.hero-banner .container{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 30px;
+}
+.hero-banner .header{
+    font-family: "Roboto", serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.hero-banner .phrase{
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    width: 670px;
+    margin: auto;
+}
+.hero-banner .btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #0088ff;
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.sec-feature{
+    width: 100%;
+    margin-top: 40px;
+}
+.sec-feature .container{
+    width: 1200px;
+    display: flex;
+}
+.sec-feature .row1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-feature .row{
+    width: 820px;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.sec-feature .col-12{
+    width: 820px;
+    padding: 10px;
+    border: 2px solid #dbd8d8;
+    border-radius: 5px;
+}
+.sec-feature .img1{
+    width: 100%;
+}
+.sec-feature .date{
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    color: #575555;
+    margin-bottom: 10px;
+}
+.sec-feature .card-header{
+    font-size: 23px;
+    font-family: "Roboto", serif;
+    margin-bottom: 10px;
+}
+.sec-feature .col-6{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #dbd8d8;
+    border-radius: 5px;
+}
+.sec-feature .img2{
+    width: 100%;
+}
+.sec-feature .form-control{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    color: #aaa8a8;
+    border: 1px solid #aaa8a8;
+    padding: 5px 10px;
+}
+.sec-feature ul{
+    border: 1px solid #aaa8a8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.sec-feature .list{
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    margin: 10px;
+}
+.sec-feature h1{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    margin-top: 10px;
+}
+.sec-feature .group-logo{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.sec-feature .app{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: #0f0f66;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer .copyr{
+    font-size: 18px;
+    font-family: "Hanuman","Roboto", serif;
+    color: white;
+    padding: 30px;
+}
